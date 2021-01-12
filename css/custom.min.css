@@ -1201,6 +1201,7 @@ textarea.mangi-control{
 @media screen and (max-width: 1200px) {
     .slogan__description {
         font-size: 45px;
+        line-height: 1.5;
     }
     .promo__description-mb {
         font-size: 16px;
@@ -1720,7 +1721,7 @@ textarea.mangi-control{
 
 @media screen and (max-width: 450px) {
     .slogan__description {
-        font-size: 16px;
+        font-size: 14px;
         line-height: 1.5;
     }
     .promo {
