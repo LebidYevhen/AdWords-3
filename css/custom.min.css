@@ -91,12 +91,11 @@ button:focus {
 #video__wrapper {
     width: 259px;
     min-height: 461px;
-    position: relative;
 }
 
 #video__wrapper img {
     width: 259px;
-    height: 461px;
+    height: 100%;
 }
 
 .promo__images {
@@ -1670,7 +1669,10 @@ textarea.mangi-control{
         font-size: 20px;
     }
     .promo {
-        padding: 30px 0;
+        padding: 30px 20px;
+    }
+    .promo__body {
+        justify-content: space-around;
     }
     .promo-video__wrapper {
         align-items: center;
@@ -1681,6 +1683,19 @@ textarea.mangi-control{
     .promo__wrapper {
         display: block;
         margin-right: 0;
+    }
+    #video__wrapper img {
+        width: 100%;
+    }
+    #video__wrapper {
+        justify-content: center;
+        margin: 0 auto;
+        width: 200px;
+        min-height: 400px;
+    }
+
+    .promo__content {
+        max-width: 100%;
     }
 
     .promo__button {
@@ -1709,9 +1724,7 @@ textarea.mangi-control{
         height: 50px;
         margin-bottom: 0;
     }
-    #video__wrapper {
-        width: 200px;
-    }
+
     .title {
         font-size: 13px;
     }
