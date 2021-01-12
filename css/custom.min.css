@@ -50,7 +50,7 @@ button:focus {
 
 .promo__body {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .promo-video__content {
