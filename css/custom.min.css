@@ -28,14 +28,23 @@ button:focus {
     outline: 0;
 }
 
-.vidyard-player-embed,
-.vidyard-player-container{
-    position: absolute !important;
+.vidyard-player-container {
     top: 0;
     left: 0;
     height: 100% !important;
     bottom: 0;
 }
+.video-popup .vidyard-player-container {
+    position: absolute;
+}
+.vidyard-player-embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100% !important;
+    bottom: 0;
+}
+
 .hero .vidyard-player-container div[class^=vidyard-div-]{
     height: 100% !important;
 
@@ -745,7 +754,7 @@ textarea.mangi-control{
     position: relative;
 
     width: 800px;
-    padding-bottom: 34.25%;
+    max-width: 100%;
     margin: 0 auto;
 }
 
@@ -1221,10 +1230,6 @@ textarea.mangi-control{
         padding: 20px;
     }
 
-    .gallery-video-item {
-        padding-bottom: 41.25%;
-    }
-
     .form {
         padding: 50px;
     }
@@ -1345,11 +1350,6 @@ textarea.mangi-control{
     .promo__wrapper-2 {
         margin-left: 16px;
     }
-    .gallery-video-item {
-        padding-bottom: 55.25%;
-    }
-
-
 }
 
 @media screen and (max-width: 892px) {
@@ -1522,11 +1522,6 @@ textarea.mangi-control{
 
     }
 
-    .gallery-video-item {
-        height: 100%;
-        width: 100%;
-    }
-
     .gallery__item {
         padding: 15px 0;
     }
@@ -1644,10 +1639,6 @@ textarea.mangi-control{
     }
     .title {
         font-size: 20px;
-    }
-
-    .gallery-video-item {
-        padding-bottom: 56.25%;
     }
     .promo__content {
         margin-left: 50px;
